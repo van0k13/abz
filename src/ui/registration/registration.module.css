@@ -1,0 +1,46 @@
+.registrationPageWrapper {
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-color: grey;
+}
+.registrationPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 150px 0;
+    background-color: white;
+    width: 80%;
+}
+.registrationPage button {
+    border: transparent;
+    border-radius: 5px;
+    margin: 20px 0;
+    width: 200px;
+    height: 40px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(239, 91, 76);
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.registrationPage button:hover {
+    background-color: #D24335;
+}
+.header {
+    font-size: 50px;
+    line-height: 54px;
+    font-weight: 200;
+    margin-bottom: 110px;
+}
+
+
+
+
+
+.browseButton {
+    display: none;
+}

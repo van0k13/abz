@@ -1,0 +1,62 @@
+.headerPageWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+}
+
+.header {
+    width: 80%;
+    min-height: 60px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img {
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.img img {
+    width: 32px;
+    height: 32px;
+    background-image: url("../../assets/img/favicon-32x32.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img span {
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 3px;
+    font-weight: 600;
+    margin: 0 10px;
+}
+
+.navMenu {
+    width: 46%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.navMenu > .active {
+    border-bottom: 2px solid rgba(68, 75, 139, 0.658);
+    color: rgb(85, 112, 112);
+}
+.link {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+.link:hover {
+    color: rgb(239, 91, 76);
+}
+.link:active {
+    color: rgb(0, 123, 255);
+}
