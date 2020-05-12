@@ -14,10 +14,13 @@
     background-color: white;
     width: 80%;
 }
+.registrationPage h1 {
+    margin-bottom: 70px;
+}
 .registrationPage button {
     border: transparent;
     border-radius: 5px;
-    margin: 20px 0;
+    margin-top: 40px;
     width: 200px;
     height: 40px;
     text-decoration: none;
@@ -36,11 +39,15 @@
     font-weight: 200;
     margin-bottom: 110px;
 }
-
-
-
-
-
-.browseButton {
-    display: none;
+.formToSend {
+    margin-left: 0;
+    display: flex;
+    width: 43%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+
+
+
